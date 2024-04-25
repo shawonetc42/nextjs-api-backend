@@ -15,20 +15,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <div>
-      <Header />
-      <Navigation />
-      <MainHeader />
-      <NavCategory />
-      <Slider />
-      <Banner />
-      <Banner2 />
-      <HeroButton
-        title="New Arrivals"
-        discriptions="Dont miss this opportunity at a special discount just for this week."
-        button="Shop Now"
-        link={"/shop"}
-      />
-      <HighlightedProducts />
+     <h1>Welcome to server</h1>
     </div>
   );
 }
